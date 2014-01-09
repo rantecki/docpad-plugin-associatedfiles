@@ -1,4 +1,19 @@
-# Associated Files Plugin for DocPad
+# Associated Files Plugin for [DocPad](http://docpad.org)
+
+<!-- BADGES/ -->
+
+[![Build Status](http://img.shields.io/travis-ci/docpad/docpad-plugin-associatedfiles.png?branch=master)](http://travis-ci.org/docpad/docpad-plugin-associatedfiles "Check this project's build status on TravisCI")
+[![NPM version](http://badge.fury.io/js/docpad-plugin-associatedfiles.png)](https://npmjs.org/package/docpad-plugin-associatedfiles "View this project on NPM")
+[![Dependency Status](https://david-dm.org/docpad/docpad-plugin-associatedfiles.png?theme=shields.io)](https://david-dm.org/docpad/docpad-plugin-associatedfiles)
+[![Development Dependency Status](https://david-dm.org/docpad/docpad-plugin-associatedfiles/dev-status.png?theme=shields.io)](https://david-dm.org/docpad/docpad-plugin-associatedfiles#info=devDependencies)<br/>
+[![Gittip donate button](http://img.shields.io/gittip/docpad.png)](https://www.gittip.com/docpad/ "Donate weekly to this project using Gittip")
+[![Flattr donate button](http://img.shields.io/flattr/donate.png?color=yellow)](http://flattr.com/thing/344188/balupton-on-Flattr "Donate monthly to this project using Flattr")
+[![PayPayl donate button](http://img.shields.io/paypal/donate.png?color=yellow)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=QB8GQPZAH84N6 "Donate once-off to this project using Paypal")
+[![BitCoin donate button](http://img.shields.io/bitcoin/donate.png?color=yellow)](https://coinbase.com/checkouts/9ef59f5479eec1d97d63382c9ebcb93a "Donate once-off to this project using BitCoin")
+
+<!-- /BADGES -->
+
+
 This plugin streamlines finding associated files for a particular document in [DocPad](https://docpad.org), which is useful for:
 - getting images for a gallery
 - getting downloads for an article
@@ -8,8 +23,8 @@ This plugin streamlines finding associated files for a particular document in [D
 
 ## Install
 
-```
-npm install --save docpad-plugin-associatedfiles
+``` bash
+docpad install associatedfiles
 ```
 
 
@@ -54,14 +69,63 @@ Then we will stick a few images inside our path: `src/files/associated-files/my-
 Ins't that cool?
 
 
-## History
-You can discover the history inside the `History.md` file
+<!-- HISTORY/ -->
 
+## History
+[Discover the change history by heading on over to the `HISTORY.md` file.](https://github.com/docpad/docpad-plugin-associatedfiles/blob/master/HISTORY.md#files)
+
+<!-- /HISTORY -->
+
+
+<!-- CONTRIBUTE/ -->
+
+## Contribute
+
+[Discover how you can contribute by heading on over to the `CONTRIBUTING.md` file.](https://github.com/docpad/docpad-plugin-associatedfiles/blob/master/CONTRIBUTING.md#files)
+
+<!-- /CONTRIBUTE -->
+
+
+<!-- BACKERS/ -->
+
+## Backers
+
+### Maintainers
+
+These amazing people are maintaining this project:
+
+- Benjamin Lupton <b@lupton.cc> (https://github.com/balupton)
+
+### Sponsors
+
+No sponsors yet! Will you be the first?
+
+[![Gittip donate button](http://img.shields.io/gittip/docpad.png)](https://www.gittip.com/docpad/ "Donate weekly to this project using Gittip")
+[![Flattr donate button](http://img.shields.io/flattr/donate.png?color=yellow)](http://flattr.com/thing/344188/balupton-on-Flattr "Donate monthly to this project using Flattr")
+[![PayPayl donate button](http://img.shields.io/paypal/donate.png?color=yellow)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=QB8GQPZAH84N6 "Donate once-off to this project using Paypal")
+[![BitCoin donate button](http://img.shields.io/bitcoin/donate.png?color=yellow)](https://coinbase.com/checkouts/9ef59f5479eec1d97d63382c9ebcb93a "Donate once-off to this project using BitCoin")
+
+### Contributors
+
+These amazing people have contributed code to this project:
+
+- [Benjamin Lupton](https://github.com/balupton) <b@lupton.cc> — [view contributions](https://github.com/docpad/docpad-plugin-associatedfiles/commits?author=balupton)
+- [jonathanh32](https://github.com/jonathanh32) — [view contributions](https://github.com/docpad/docpad-plugin-associatedfiles/commits?author=jonathanh32)
+- [Morgan Sutherland](https://github.com/msutherl) <morgan@msutherl.net> — [view contributions](https://github.com/docpad/docpad-plugin-associatedfiles/commits?author=msutherl)
+
+[Become a contributor!](https://github.com/docpad/docpad-plugin-associatedfiles/blob/master/CONTRIBUTING.md#files)
+
+<!-- /BACKERS -->
+
+
+<!-- LICENSE/ -->
 
 ## License
-Licensed under the incredibly [permissive](http://en.wikipedia.org/wiki/Permissive_free_software_licence) [MIT License](http://creativecommons.org/licenses/MIT/)
-<br/>Copyright &copy; 2012+ [Bevry Pty Ltd](http://bevry.me)
 
-## Contributors
-- [Benjamin Lupton](http://balupton.com)
-- [Morgan Sutherland](http://msutherl.net)
+Licensed under the incredibly [permissive](http://en.wikipedia.org/wiki/Permissive_free_software_licence) [MIT license](http://creativecommons.org/licenses/MIT/)
+
+Copyright &copy; Bevry Pty Ltd <us@bevry.me> (http://bevry.me)
+
+<!-- /LICENSE -->
+
+
