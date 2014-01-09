@@ -36,7 +36,8 @@
   },
   "main": "./out/associatedfiles.plugin.js",
   "scripts": {
-    "test": "node ./test/associatedfiles.test.js"
+    "test": "node ./test/associatedfiles.test.js",
+    "preinstall": "[ -e ./out/associatedfiles.plugin.js ] || (which coffee && coffee -bco ./out/ ./src/) || true"
   },
   "peerDependencies": {
     "docpad": ">=6.1 <7"

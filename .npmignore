@@ -18,7 +18,7 @@ Makefile
 BACKERS.md
 CONTRIBUTING.md
 HISTORY.md
-**/src/
+#**/src/
 **/test/
 
 # Other Package Definitions
